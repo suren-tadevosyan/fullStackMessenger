@@ -1,0 +1,44 @@
+.message {
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.outgoing {
+  background-color: green;
+  align-self: flex-end; /* Aligns the outgoing messages to the end of the flex container */
+}
+
+.incoming {
+  background-color: #e0e0e0;
+  align-self: flex-start; /* Aligns the incoming messages to the start of the flex container */
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px;
+  background-color: grey;
+}
+.user-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-list-item {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: yellowgreen;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-list-item:hover {
+  background-color: #e0e0e0;
+}
